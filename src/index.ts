@@ -6,4 +6,4 @@ const PORT = process.env.PORT ?? 8000;
 
 app.use("/", router);
 
-app.listen(PORT, () => console.log(`Hello Server Started on PORT ${PORT} 🎉`));
+app.listen(PORT, () => console.log(`Hello AWS Server Started on PORT ${PORT} 🎉`));
